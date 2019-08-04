@@ -13,6 +13,5 @@ var addmore = function() {
     $(wrapper).on("click", '.remove-btn', function (e) { 
         e.preventDefault(); 
         $(this).closest('.col-lg-12').remove();
-       
     })
 };
